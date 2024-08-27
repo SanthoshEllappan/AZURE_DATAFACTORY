@@ -1,0 +1,17 @@
+{
+	"name": "reporting",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lscleaning",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "prep",
+			"table": "output"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,17 @@
+{
+	"name": "orderprep",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsdborderdetails",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "prep",
+			"table": "orderprep"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

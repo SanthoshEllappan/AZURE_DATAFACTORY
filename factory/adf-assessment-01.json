@@ -1,0 +1,9 @@
+{
+	"name": "adf-assessment-01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "942459a6-25b8-40d9-b83b-c68c0a539982",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}

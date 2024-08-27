@@ -1,0 +1,17 @@
+{
+	"name": "customerdetails",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqlcustomerdetails",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "raw",
+			"table": "customerdetails"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,17 @@
+{
+	"name": "cutomerpre",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqlcustomerdetails",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "prep",
+			"table": "cutomerprep"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

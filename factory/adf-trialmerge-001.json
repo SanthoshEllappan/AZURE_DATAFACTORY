@@ -1,0 +1,9 @@
+{
+	"name": "adf-trialmerge-001",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fc5d9aa4-bf21-49f6-a94d-9c28af75f90e",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}

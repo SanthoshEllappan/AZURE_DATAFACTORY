@@ -1,0 +1,22 @@
+{
+	"name": "input_excel",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lscustomerall",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "INPUT",
+				"container": "crtrial001"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
